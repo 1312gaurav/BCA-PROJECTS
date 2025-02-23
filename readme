@@ -1,0 +1,105 @@
+# Narrow Links - URL Shortener 🚀
+
+## **Overview**
+Narrow Links is a web-based **URL shortener** that allows users to convert long URLs into short, shareable links. It also provides additional features like **QR code generation** and **SMS sharing** of links.
+
+---
+## **Features** ✅
+- 🔗 **Shortens long URLs** for easy sharing
+- 📋 **Copy Button** to quickly copy the shortened link
+- 📲 **QR Code Generator** for easy scanning and sharing
+- 📩 **SMS Sharing** feature to send shortened links via SMS
+
+---
+## **Tech Stack & Languages Used** 🛠️
+- **Frontend:** React.js, HTML, CSS, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas
+- **APIs Used:**
+  - Twilio SMS API (For sending links via SMS)
+  - QR Code API (For generating QR codes)
+
+---
+## **Project Structure** 📂
+```
+Narrow-Links/
+│-- client/  # Frontend (React.js)
+│   │-- public/
+│   │-- src/
+│-- server/  # Backend (Node.js & Express)
+│   │-- routes/
+│   │-- controllers/
+│-- README.md  # Project Documentation
+```
+
+---
+## **How It Works? ⚙️**
+1. **Paste your long URL** in the input box.
+2. Click the **"Shorten URL"** button to generate a short link.
+3. Optionally, generate a **QR code** for the link.
+4. Use the **SMS feature** to share the short URL via Twilio API.
+
+---
+## **Installation & Setup** 💻
+Follow these steps to run the project on your local machine:
+
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/your-username/narrow-links.git
+cd narrow-links
+```
+
+### **2️⃣ Install Dependencies**
+#### **For Frontend**
+```sh
+cd client
+npm install
+```
+#### **For Backend**
+```sh
+cd server
+npm install
+```
+
+### **3️⃣ Start the Application**
+#### **Run Backend**
+```sh
+cd server
+npm start
+```
+#### **Run Frontend**
+```sh
+cd client
+npm start
+```
+
+The project will now be running at **http://localhost:3000/** 🎉
+
+---
+## **Screenshots 📸**
+| Feature | Screenshot |
+|---------|------------|
+| Home Page | ![Home Page](screenshots/homepage.png) |
+| Shortened URL | ![Shortened Link](screenshots/shortened.png) |
+| QR Code | ![QR Code](screenshots/qrcode.png) |
+| SMS Feature | ![SMS Sharing](screenshots/sms.png) |
+
+---
+## **Contributors 🙌**
+- **Gaurav Bhandari**
+- **Unnikrishnan V**
+
+Special thanks to **Mr. Shivam Gupta & Ms. Apurva Vashistha** for their guidance. 🎓
+
+---
+## **License 📜**
+This project is licensed under the **MIT License**. Feel free to use and improve it!
+
+---
+## **Connect with Me 🌐**
+📧 Email: gauravbhandari016@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/gaurav-bhandari-962020213/  
+
+
+---
+### **⭐ Don't forget to star this repo if you found it useful!** ⭐
