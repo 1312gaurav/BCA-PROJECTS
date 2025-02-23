@@ -1,1 +1,15 @@
+Tools AI
+Overview
+Tools AI is a web-based platform integrating multiple AI-powered utilities to enhance productivity and simplify digital tasks. The project includes:
 
+Image Generator – Creates AI-generated images based on user prompts using OpenAI’s DALL·E API.
+AI Translator – Translates text into different languages using OpenAI’s ChatGPT API.
+SQL Generator – Converts English statements into SQL queries for database management.
+Code GPT – Provides explanations for code snippets, aiding developers in understanding complex code.
+Technologies Used
+Frontend: React.js, Bootstrap
+Backend: Node.js, Express.js
+APIs: OpenAI API (DALL·E, ChatGPT)
+Tools: Visual Studio Code, npm
+Project By
+Gaurav Bhandari
